@@ -1,0 +1,11 @@
+.cover__overlay { 
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  z-index: 2;
+}

@@ -1,0 +1,16 @@
+.cover__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .3);
+  z-index: 1;
+}
+
+@media screen and (min-width:1024px) {
+  .cover__container:hover {
+    background-color: rgba(0,0 , 0, .7);
+   } 
+}
